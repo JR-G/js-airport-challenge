@@ -1,0 +1,7 @@
+class Airport {
+  
+  planes() {
+    return [];
+
+  }
+};
