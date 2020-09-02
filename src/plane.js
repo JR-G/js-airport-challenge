@@ -1,5 +1,6 @@
 class Plane {
-  land() {
-    
+
+  land(airport) {
+    return airport.clearForLanding(this);
   };
 };

@@ -10,6 +10,7 @@ describe('plane', function() {
 
   it('can land', function() {
     plane.land(airport);
+    
     expect(airport.clearForLanding).toHaveBeenCalledWith(plane);
   });
 });
