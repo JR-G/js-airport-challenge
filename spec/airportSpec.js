@@ -1,4 +1,4 @@
-describe('airport', function (){
+describe('Airport', function (){
 
   let airport;
   let plane;
